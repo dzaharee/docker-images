@@ -1,4 +1,4 @@
-FROM dev
+FROM dzaharee/dev
 
 RUN apt-get install -qy haskell-platform
 
