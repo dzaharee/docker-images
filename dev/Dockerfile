@@ -4,7 +4,8 @@ RUN apt-get install -qy sudo && \
     echo 'Defaults env_keep -= "HOME"' >> /etc/sudoers && \
     echo 'dev ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 
-RUN useradd -m dev && \
+RUN groupadd -g 913379 dev && \
+    useradd -m -u 913379 -g 913379 dev && \
     mkdir /home/dev/workdir && \
     chown dev:dev /home/dev/workdir
 
