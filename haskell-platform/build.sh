@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-docker build --rm -t haskell-platform .
+docker build --rm -t dzaharee/haskell-platform .
