@@ -1,6 +1,6 @@
 # Dev
 
-Ubuntu Vivid based image with a generic ```dev``` user, workdir set at
+Ubuntu Vivid (Nightly) based image with a generic ```dev``` user, workdir set at
 ```/home/dev/workdir```, and an entrypoint script that sets UIDs and GIDs for
 worry-free volume mounting.
 
